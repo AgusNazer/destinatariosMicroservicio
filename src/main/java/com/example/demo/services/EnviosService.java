@@ -11,7 +11,7 @@ public interface EnviosService {
 
     public void saveEnvio(LocalDate fecha, String estadoProcesamiento, String procesamiento );
 
-    public void editEnvio(Long id, Envios envios);
+    public void editEnvio(Long id, Envios envios, String estadoProcesamiento);
 
     public Envios findEnvio(Long id);
 
