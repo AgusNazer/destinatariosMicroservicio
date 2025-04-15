@@ -3,7 +3,9 @@ package com.example.demo.services;
 import java.time.LocalDate;
 import java.util.List;
 
-public interface Envios {
+import com.example.demo.models.Envios;
+
+public interface EnviosService {
 
     public List<Envios> getEnvios();
 
